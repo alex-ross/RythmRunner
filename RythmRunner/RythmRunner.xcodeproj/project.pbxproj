@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B07468E221BFB54A00B7A84D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07468E121BFB54A00B7A84D /* AppDelegate.swift */; };
+		B07468E421BFB54A00B7A84D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07468E321BFB54A00B7A84D /* ViewController.swift */; };
+		B07468E721BFB54A00B7A84D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07468E521BFB54A00B7A84D /* Main.storyboard */; };
+		B07468E921BFB54B00B7A84D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07468E821BFB54B00B7A84D /* Assets.xcassets */; };
+		B07468EC21BFB54B00B7A84D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07468EA21BFB54B00B7A84D /* LaunchScreen.storyboard */; };
+		B07468F121BFB54C00B7A84D /* RythmRunner WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B07468F021BFB54C00B7A84D /* RythmRunner WatchKit App.app */; };
+		B07468F721BFB54C00B7A84D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07468F521BFB54C00B7A84D /* Interface.storyboard */; };
+		B07468F921BFB54C00B7A84D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07468F821BFB54C00B7A84D /* Assets.xcassets */; };
+		B074690021BFB54C00B7A84D /* RythmRunner WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B07468FF21BFB54C00B7A84D /* RythmRunner WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B074690521BFB54C00B7A84D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074690421BFB54C00B7A84D /* InterfaceController.swift */; };
+		B074690721BFB54C00B7A84D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074690621BFB54C00B7A84D /* ExtensionDelegate.swift */; };
+		B074690921BFB54C00B7A84D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074690821BFB54C00B7A84D /* NotificationController.swift */; };
+		B074690B21BFB54D00B7A84D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B074690A21BFB54D00B7A84D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B07468F221BFB54C00B7A84D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B07468D621BFB54A00B7A84D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B07468EF21BFB54C00B7A84D;
+			remoteInfo = "RythmRunner WatchKit App";
+		};
+		B074690121BFB54C00B7A84D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B07468D621BFB54A00B7A84D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B07468FE21BFB54C00B7A84D;
+			remoteInfo = "RythmRunner WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B074691321BFB54D00B7A84D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B074690021BFB54C00B7A84D /* RythmRunner WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B074691721BFB54D00B7A84D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B07468F121BFB54C00B7A84D /* RythmRunner WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B07468DE21BFB54A00B7A84D /* RythmRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RythmRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07468E121BFB54A00B7A84D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B07468E321BFB54A00B7A84D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B07468E621BFB54A00B7A84D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B07468E821BFB54B00B7A84D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B07468EB21BFB54B00B7A84D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B07468ED21BFB54B00B7A84D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B07468F021BFB54C00B7A84D /* RythmRunner WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RythmRunner WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07468F621BFB54C00B7A84D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B07468F821BFB54C00B7A84D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B07468FA21BFB54C00B7A84D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B07468FF21BFB54C00B7A84D /* RythmRunner WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RythmRunner WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B074690421BFB54C00B7A84D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B074690621BFB54C00B7A84D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		B074690821BFB54C00B7A84D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		B074690A21BFB54D00B7A84D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B074690C21BFB54D00B7A84D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B074690D21BFB54D00B7A84D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B07468DB21BFB54A00B7A84D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07468FC21BFB54C00B7A84D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B07468D521BFB54A00B7A84D = {
+			isa = PBXGroup;
+			children = (
+				B07468E021BFB54A00B7A84D /* RythmRunner */,
+				B07468F421BFB54C00B7A84D /* RythmRunner WatchKit App */,
+				B074690321BFB54C00B7A84D /* RythmRunner WatchKit Extension */,
+				B07468DF21BFB54A00B7A84D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B07468DF21BFB54A00B7A84D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B07468DE21BFB54A00B7A84D /* RythmRunner.app */,
+				B07468F021BFB54C00B7A84D /* RythmRunner WatchKit App.app */,
+				B07468FF21BFB54C00B7A84D /* RythmRunner WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B07468E021BFB54A00B7A84D /* RythmRunner */ = {
+			isa = PBXGroup;
+			children = (
+				B07468E121BFB54A00B7A84D /* AppDelegate.swift */,
+				B07468E321BFB54A00B7A84D /* ViewController.swift */,
+				B07468E521BFB54A00B7A84D /* Main.storyboard */,
+				B07468E821BFB54B00B7A84D /* Assets.xcassets */,
+				B07468EA21BFB54B00B7A84D /* LaunchScreen.storyboard */,
+				B07468ED21BFB54B00B7A84D /* Info.plist */,
+			);
+			path = RythmRunner;
+			sourceTree = "<group>";
+		};
+		B07468F421BFB54C00B7A84D /* RythmRunner WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B07468F521BFB54C00B7A84D /* Interface.storyboard */,
+				B07468F821BFB54C00B7A84D /* Assets.xcassets */,
+				B07468FA21BFB54C00B7A84D /* Info.plist */,
+			);
+			path = "RythmRunner WatchKit App";
+			sourceTree = "<group>";
+		};
+		B074690321BFB54C00B7A84D /* RythmRunner WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B074690421BFB54C00B7A84D /* InterfaceController.swift */,
+				B074690621BFB54C00B7A84D /* ExtensionDelegate.swift */,
+				B074690821BFB54C00B7A84D /* NotificationController.swift */,
+				B074690A21BFB54D00B7A84D /* Assets.xcassets */,
+				B074690C21BFB54D00B7A84D /* Info.plist */,
+				B074690D21BFB54D00B7A84D /* PushNotificationPayload.apns */,
+			);
+			path = "RythmRunner WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B07468DD21BFB54A00B7A84D /* RythmRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B074691821BFB54D00B7A84D /* Build configuration list for PBXNativeTarget "RythmRunner" */;
+			buildPhases = (
+				B07468DA21BFB54A00B7A84D /* Sources */,
+				B07468DB21BFB54A00B7A84D /* Frameworks */,
+				B07468DC21BFB54A00B7A84D /* Resources */,
+				B074691721BFB54D00B7A84D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B07468F321BFB54C00B7A84D /* PBXTargetDependency */,
+			);
+			name = RythmRunner;
+			productName = RythmRunner;
+			productReference = B07468DE21BFB54A00B7A84D /* RythmRunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B07468EF21BFB54C00B7A84D /* RythmRunner WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B074691421BFB54D00B7A84D /* Build configuration list for PBXNativeTarget "RythmRunner WatchKit App" */;
+			buildPhases = (
+				B07468EE21BFB54C00B7A84D /* Resources */,
+				B074691321BFB54D00B7A84D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B074690221BFB54C00B7A84D /* PBXTargetDependency */,
+			);
+			name = "RythmRunner WatchKit App";
+			productName = "RythmRunner WatchKit App";
+			productReference = B07468F021BFB54C00B7A84D /* RythmRunner WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B07468FE21BFB54C00B7A84D /* RythmRunner WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B074691021BFB54D00B7A84D /* Build configuration list for PBXNativeTarget "RythmRunner WatchKit Extension" */;
+			buildPhases = (
+				B07468FB21BFB54C00B7A84D /* Sources */,
+				B07468FC21BFB54C00B7A84D /* Frameworks */,
+				B07468FD21BFB54C00B7A84D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RythmRunner WatchKit Extension";
+			productName = "RythmRunner WatchKit Extension";
+			productReference = B07468FF21BFB54C00B7A84D /* RythmRunner WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B07468D621BFB54A00B7A84D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = phoenix;
+				TargetAttributes = {
+					B07468DD21BFB54A00B7A84D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B07468EF21BFB54C00B7A84D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B07468FE21BFB54C00B7A84D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = B07468D921BFB54A00B7A84D /* Build configuration list for PBXProject "RythmRunner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B07468D521BFB54A00B7A84D;
+			productRefGroup = B07468DF21BFB54A00B7A84D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B07468DD21BFB54A00B7A84D /* RythmRunner */,
+				B07468EF21BFB54C00B7A84D /* RythmRunner WatchKit App */,
+				B07468FE21BFB54C00B7A84D /* RythmRunner WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B07468DC21BFB54A00B7A84D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07468EC21BFB54B00B7A84D /* LaunchScreen.storyboard in Resources */,
+				B07468E921BFB54B00B7A84D /* Assets.xcassets in Resources */,
+				B07468E721BFB54A00B7A84D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07468EE21BFB54C00B7A84D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07468F921BFB54C00B7A84D /* Assets.xcassets in Resources */,
+				B07468F721BFB54C00B7A84D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07468FD21BFB54C00B7A84D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B074690B21BFB54D00B7A84D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B07468DA21BFB54A00B7A84D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07468E421BFB54A00B7A84D /* ViewController.swift in Sources */,
+				B07468E221BFB54A00B7A84D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07468FB21BFB54C00B7A84D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B074690921BFB54C00B7A84D /* NotificationController.swift in Sources */,
+				B074690721BFB54C00B7A84D /* ExtensionDelegate.swift in Sources */,
+				B074690521BFB54C00B7A84D /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B07468F321BFB54C00B7A84D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B07468EF21BFB54C00B7A84D /* RythmRunner WatchKit App */;
+			targetProxy = B07468F221BFB54C00B7A84D /* PBXContainerItemProxy */;
+		};
+		B074690221BFB54C00B7A84D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B07468FE21BFB54C00B7A84D /* RythmRunner WatchKit Extension */;
+			targetProxy = B074690121BFB54C00B7A84D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B07468E521BFB54A00B7A84D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B07468E621BFB54A00B7A84D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B07468EA21BFB54B00B7A84D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B07468EB21BFB54B00B7A84D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B07468F521BFB54C00B7A84D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B07468F621BFB54C00B7A84D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B074690E21BFB54D00B7A84D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B074690F21BFB54D00B7A84D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B074691121BFB54D00B7A84D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RythmRunner WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Phoenix.RythmRunner.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		B074691221BFB54D00B7A84D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RythmRunner WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Phoenix.RythmRunner.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		B074691521BFB54D00B7A84D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = RythmRunner_WatchKit_Extension;
+				INFOPLIST_FILE = "RythmRunner WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = Phoenix.RythmRunner.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		B074691621BFB54D00B7A84D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = RythmRunner_WatchKit_Extension;
+				INFOPLIST_FILE = "RythmRunner WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = Phoenix.RythmRunner.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		B074691921BFB54D00B7A84D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RythmRunner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Phoenix.RythmRunner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B074691A21BFB54D00B7A84D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RythmRunner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Phoenix.RythmRunner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B07468D921BFB54A00B7A84D /* Build configuration list for PBXProject "RythmRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B074690E21BFB54D00B7A84D /* Debug */,
+				B074690F21BFB54D00B7A84D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B074691021BFB54D00B7A84D /* Build configuration list for PBXNativeTarget "RythmRunner WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B074691121BFB54D00B7A84D /* Debug */,
+				B074691221BFB54D00B7A84D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B074691421BFB54D00B7A84D /* Build configuration list for PBXNativeTarget "RythmRunner WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B074691521BFB54D00B7A84D /* Debug */,
+				B074691621BFB54D00B7A84D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B074691821BFB54D00B7A84D /* Build configuration list for PBXNativeTarget "RythmRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B074691921BFB54D00B7A84D /* Debug */,
+				B074691A21BFB54D00B7A84D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B07468D621BFB54A00B7A84D /* Project object */;
+}
