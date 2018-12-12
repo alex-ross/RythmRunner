@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B07468E221BFB54A00B7A84D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07468E121BFB54A00B7A84D /* AppDelegate.swift */; };
-		B07468E421BFB54A00B7A84D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07468E321BFB54A00B7A84D /* ViewController.swift */; };
-		B07468E721BFB54A00B7A84D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07468E521BFB54A00B7A84D /* Main.storyboard */; };
 		B07468E921BFB54B00B7A84D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07468E821BFB54B00B7A84D /* Assets.xcassets */; };
 		B07468EC21BFB54B00B7A84D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07468EA21BFB54B00B7A84D /* LaunchScreen.storyboard */; };
 		B07468F121BFB54C00B7A84D /* RythmRunner WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B07468F021BFB54C00B7A84D /* RythmRunner WatchKit App.app */; };
@@ -20,6 +18,39 @@
 		B074690721BFB54C00B7A84D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074690621BFB54C00B7A84D /* ExtensionDelegate.swift */; };
 		B074690921BFB54C00B7A84D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074690821BFB54C00B7A84D /* NotificationController.swift */; };
 		B074690B21BFB54D00B7A84D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B074690A21BFB54D00B7A84D /* Assets.xcassets */; };
+		B074693521BFC9BD00B7A84D /* ReferenceLineDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074691F21BFC9BD00B7A84D /* ReferenceLineDrawingView.swift */; };
+		B074693621BFC9BD00B7A84D /* BarDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074692021BFC9BD00B7A84D /* BarDrawingLayer.swift */; };
+		B074693721BFC9BD00B7A84D /* GradientDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074692121BFC9BD00B7A84D /* GradientDrawingLayer.swift */; };
+		B074693821BFC9BD00B7A84D /* DotDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074692221BFC9BD00B7A84D /* DotDrawingLayer.swift */; };
+		B074693921BFC9BD00B7A84D /* ScrollableGraphViewDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074692321BFC9BD00B7A84D /* ScrollableGraphViewDrawingLayer.swift */; };
+		B074693A21BFC9BD00B7A84D /* LineDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074692421BFC9BD00B7A84D /* LineDrawingLayer.swift */; };
+		B074693B21BFC9BD00B7A84D /* FillDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074692521BFC9BD00B7A84D /* FillDrawingLayer.swift */; };
+		B074693C21BFC9BD00B7A84D /* ScrollableGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074692621BFC9BD00B7A84D /* ScrollableGraphView.swift */; };
+		B074693D21BFC9BD00B7A84D /* ScrollableGraphViewDrawingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074692821BFC9BD00B7A84D /* ScrollableGraphViewDrawingDelegate.swift */; };
+		B074693E21BFC9BD00B7A84D /* ScrollableGraphViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074692921BFC9BD00B7A84D /* ScrollableGraphViewDataSource.swift */; };
+		B074693F21BFC9BD00B7A84D /* ReferenceLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074692B21BFC9BD00B7A84D /* ReferenceLines.swift */; };
+		B074694021BFC9BD00B7A84D /* LabelPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074692C21BFC9BD00B7A84D /* LabelPool.swift */; };
+		B074694121BFC9BD00B7A84D /* BarPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074692E21BFC9BD00B7A84D /* BarPlot.swift */; };
+		B074694221BFC9BD00B7A84D /* GraphPointAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074693021BFC9BD00B7A84D /* GraphPointAnimation.swift */; };
+		B074694321BFC9BD00B7A84D /* GraphPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074693121BFC9BD00B7A84D /* GraphPoint.swift */; };
+		B074694421BFC9BD00B7A84D /* Plot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074693221BFC9BD00B7A84D /* Plot.swift */; };
+		B074694521BFC9BD00B7A84D /* LinePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074693321BFC9BD00B7A84D /* LinePlot.swift */; };
+		B074694621BFC9BD00B7A84D /* DotPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074693421BFC9BD00B7A84D /* DotPlot.swift */; };
+		B074694921BFCA2E00B7A84D /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B074694821BFCA2E00B7A84D /* Storyboard.storyboard */; };
+		B074694B21BFCB6300B7A84D /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074694A21BFCB6300B7A84D /* ResultsViewController.swift */; };
+		B074694D21BFCB7B00B7A84D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074694C21BFCB7B00B7A84D /* Utils.swift */; };
+		B074695021BFCD2B00B7A84D /* GraphCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074694E21BFCD2B00B7A84D /* GraphCollectionViewCell.swift */; };
+		B074695121BFCD2B00B7A84D /* GraphCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B074694F21BFCD2B00B7A84D /* GraphCollectionViewCell.xib */; };
+		B074695621C0FBB800B7A84D /* BarsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074695421C0FBB800B7A84D /* BarsCollectionViewCell.swift */; };
+		B074695721C0FBB800B7A84D /* BarsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B074695521C0FBB800B7A84D /* BarsCollectionViewCell.xib */; };
+		B074695A21C10C0E00B7A84D /* DataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074695821C10C0E00B7A84D /* DataCollectionViewCell.swift */; };
+		B074695B21C10C0E00B7A84D /* DataCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B074695921C10C0E00B7A84D /* DataCollectionViewCell.xib */; };
+		B074695D21C118F800B7A84D /* CPRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074695C21C118F800B7A84D /* CPRViewController.swift */; };
+		B074696021C11B6F00B7A84D /* TimerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074695F21C11B6F00B7A84D /* TimerLabel.swift */; };
+		B074696221C12C7700B7A84D /* Heart.png in Resources */ = {isa = PBXBuildFile; fileRef = B074696121C12C7700B7A84D /* Heart.png */; };
+		B074696421C12E2F00B7A84D /* Breath.png in Resources */ = {isa = PBXBuildFile; fileRef = B074696321C12E2E00B7A84D /* Breath.png */; };
+		B074696921C13BE600B7A84D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B074696721C13BE600B7A84D /* Main.storyboard */; };
+		B074696A21C13BE600B7A84D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074696821C13BE600B7A84D /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +98,6 @@
 /* Begin PBXFileReference section */
 		B07468DE21BFB54A00B7A84D /* RythmRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RythmRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07468E121BFB54A00B7A84D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B07468E321BFB54A00B7A84D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B07468E621BFB54A00B7A84D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B07468E821BFB54B00B7A84D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B07468EB21BFB54B00B7A84D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B07468ED21BFB54B00B7A84D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +112,39 @@
 		B074690A21BFB54D00B7A84D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B074690C21BFB54D00B7A84D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B074690D21BFB54D00B7A84D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		B074691F21BFC9BD00B7A84D /* ReferenceLineDrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceLineDrawingView.swift; sourceTree = "<group>"; };
+		B074692021BFC9BD00B7A84D /* BarDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarDrawingLayer.swift; sourceTree = "<group>"; };
+		B074692121BFC9BD00B7A84D /* GradientDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientDrawingLayer.swift; sourceTree = "<group>"; };
+		B074692221BFC9BD00B7A84D /* DotDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotDrawingLayer.swift; sourceTree = "<group>"; };
+		B074692321BFC9BD00B7A84D /* ScrollableGraphViewDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGraphViewDrawingLayer.swift; sourceTree = "<group>"; };
+		B074692421BFC9BD00B7A84D /* LineDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineDrawingLayer.swift; sourceTree = "<group>"; };
+		B074692521BFC9BD00B7A84D /* FillDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillDrawingLayer.swift; sourceTree = "<group>"; };
+		B074692621BFC9BD00B7A84D /* ScrollableGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGraphView.swift; sourceTree = "<group>"; };
+		B074692821BFC9BD00B7A84D /* ScrollableGraphViewDrawingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGraphViewDrawingDelegate.swift; sourceTree = "<group>"; };
+		B074692921BFC9BD00B7A84D /* ScrollableGraphViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGraphViewDataSource.swift; sourceTree = "<group>"; };
+		B074692B21BFC9BD00B7A84D /* ReferenceLines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceLines.swift; sourceTree = "<group>"; };
+		B074692C21BFC9BD00B7A84D /* LabelPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelPool.swift; sourceTree = "<group>"; };
+		B074692E21BFC9BD00B7A84D /* BarPlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarPlot.swift; sourceTree = "<group>"; };
+		B074693021BFC9BD00B7A84D /* GraphPointAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphPointAnimation.swift; sourceTree = "<group>"; };
+		B074693121BFC9BD00B7A84D /* GraphPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphPoint.swift; sourceTree = "<group>"; };
+		B074693221BFC9BD00B7A84D /* Plot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plot.swift; sourceTree = "<group>"; };
+		B074693321BFC9BD00B7A84D /* LinePlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinePlot.swift; sourceTree = "<group>"; };
+		B074693421BFC9BD00B7A84D /* DotPlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotPlot.swift; sourceTree = "<group>"; };
+		B074694821BFCA2E00B7A84D /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		B074694A21BFCB6300B7A84D /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		B074694C21BFCB7B00B7A84D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B074694E21BFCD2B00B7A84D /* GraphCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCollectionViewCell.swift; sourceTree = "<group>"; };
+		B074694F21BFCD2B00B7A84D /* GraphCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GraphCollectionViewCell.xib; sourceTree = "<group>"; };
+		B074695421C0FBB800B7A84D /* BarsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarsCollectionViewCell.swift; sourceTree = "<group>"; };
+		B074695521C0FBB800B7A84D /* BarsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BarsCollectionViewCell.xib; sourceTree = "<group>"; };
+		B074695821C10C0E00B7A84D /* DataCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionViewCell.swift; sourceTree = "<group>"; };
+		B074695921C10C0E00B7A84D /* DataCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataCollectionViewCell.xib; sourceTree = "<group>"; };
+		B074695C21C118F800B7A84D /* CPRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPRViewController.swift; sourceTree = "<group>"; };
+		B074695F21C11B6F00B7A84D /* TimerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerLabel.swift; sourceTree = "<group>"; };
+		B074696121C12C7700B7A84D /* Heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heart.png; sourceTree = "<group>"; };
+		B074696321C12E2E00B7A84D /* Breath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Breath.png; sourceTree = "<group>"; };
+		B074696721C13BE600B7A84D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B074696821C13BE600B7A84D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +168,9 @@
 		B07468D521BFB54A00B7A84D = {
 			isa = PBXGroup;
 			children = (
+				B074696121C12C7700B7A84D /* Heart.png */,
+				B074696321C12E2E00B7A84D /* Breath.png */,
+				B074691D21BFC9BD00B7A84D /* GraphicView */,
 				B07468E021BFB54A00B7A84D /* RythmRunner */,
 				B07468F421BFB54C00B7A84D /* RythmRunner WatchKit App */,
 				B074690321BFB54C00B7A84D /* RythmRunner WatchKit Extension */,
@@ -126,10 +191,13 @@
 		B07468E021BFB54A00B7A84D /* RythmRunner */ = {
 			isa = PBXGroup;
 			children = (
+				B074695E21C11B4700B7A84D /* CPR */,
+				B074694721BFCA1900B7A84D /* Results */,
 				B07468E121BFB54A00B7A84D /* AppDelegate.swift */,
-				B07468E321BFB54A00B7A84D /* ViewController.swift */,
-				B07468E521BFB54A00B7A84D /* Main.storyboard */,
 				B07468E821BFB54B00B7A84D /* Assets.xcassets */,
+				B074696721C13BE600B7A84D /* Main.storyboard */,
+				B074694821BFCA2E00B7A84D /* Storyboard.storyboard */,
+				B074696821C13BE600B7A84D /* ViewController.swift */,
 				B07468EA21BFB54B00B7A84D /* LaunchScreen.storyboard */,
 				B07468ED21BFB54B00B7A84D /* Info.plist */,
 			);
@@ -157,6 +225,95 @@
 				B074690D21BFB54D00B7A84D /* PushNotificationPayload.apns */,
 			);
 			path = "RythmRunner WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B074691D21BFC9BD00B7A84D /* GraphicView */ = {
+			isa = PBXGroup;
+			children = (
+				B074691E21BFC9BD00B7A84D /* Drawing */,
+				B074692621BFC9BD00B7A84D /* ScrollableGraphView.swift */,
+				B074692721BFC9BD00B7A84D /* Protocols */,
+				B074692A21BFC9BD00B7A84D /* Reference */,
+				B074692D21BFC9BD00B7A84D /* Plots */,
+			);
+			path = GraphicView;
+			sourceTree = "<group>";
+		};
+		B074691E21BFC9BD00B7A84D /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				B074691F21BFC9BD00B7A84D /* ReferenceLineDrawingView.swift */,
+				B074692021BFC9BD00B7A84D /* BarDrawingLayer.swift */,
+				B074692121BFC9BD00B7A84D /* GradientDrawingLayer.swift */,
+				B074692221BFC9BD00B7A84D /* DotDrawingLayer.swift */,
+				B074692321BFC9BD00B7A84D /* ScrollableGraphViewDrawingLayer.swift */,
+				B074692421BFC9BD00B7A84D /* LineDrawingLayer.swift */,
+				B074692521BFC9BD00B7A84D /* FillDrawingLayer.swift */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+		B074692721BFC9BD00B7A84D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B074692821BFC9BD00B7A84D /* ScrollableGraphViewDrawingDelegate.swift */,
+				B074692921BFC9BD00B7A84D /* ScrollableGraphViewDataSource.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B074692A21BFC9BD00B7A84D /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				B074692B21BFC9BD00B7A84D /* ReferenceLines.swift */,
+				B074692C21BFC9BD00B7A84D /* LabelPool.swift */,
+			);
+			path = Reference;
+			sourceTree = "<group>";
+		};
+		B074692D21BFC9BD00B7A84D /* Plots */ = {
+			isa = PBXGroup;
+			children = (
+				B074692E21BFC9BD00B7A84D /* BarPlot.swift */,
+				B074692F21BFC9BD00B7A84D /* Animation */,
+				B074693221BFC9BD00B7A84D /* Plot.swift */,
+				B074693321BFC9BD00B7A84D /* LinePlot.swift */,
+				B074693421BFC9BD00B7A84D /* DotPlot.swift */,
+			);
+			path = Plots;
+			sourceTree = "<group>";
+		};
+		B074692F21BFC9BD00B7A84D /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				B074693021BFC9BD00B7A84D /* GraphPointAnimation.swift */,
+				B074693121BFC9BD00B7A84D /* GraphPoint.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		B074694721BFCA1900B7A84D /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				B074694C21BFCB7B00B7A84D /* Utils.swift */,
+				B074695821C10C0E00B7A84D /* DataCollectionViewCell.swift */,
+				B074695921C10C0E00B7A84D /* DataCollectionViewCell.xib */,
+				B074694A21BFCB6300B7A84D /* ResultsViewController.swift */,
+				B074694E21BFCD2B00B7A84D /* GraphCollectionViewCell.swift */,
+				B074694F21BFCD2B00B7A84D /* GraphCollectionViewCell.xib */,
+				B074695421C0FBB800B7A84D /* BarsCollectionViewCell.swift */,
+				B074695521C0FBB800B7A84D /* BarsCollectionViewCell.xib */,
+			);
+			path = Results;
+			sourceTree = "<group>";
+		};
+		B074695E21C11B4700B7A84D /* CPR */ = {
+			isa = PBXGroup;
+			children = (
+				B074695C21C118F800B7A84D /* CPRViewController.swift */,
+				B074695F21C11B6F00B7A84D /* TimerLabel.swift */,
+			);
+			path = CPR;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +418,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B074696421C12E2F00B7A84D /* Breath.png in Resources */,
+				B074696221C12C7700B7A84D /* Heart.png in Resources */,
+				B074695121BFCD2B00B7A84D /* GraphCollectionViewCell.xib in Resources */,
 				B07468EC21BFB54B00B7A84D /* LaunchScreen.storyboard in Resources */,
+				B074694921BFCA2E00B7A84D /* Storyboard.storyboard in Resources */,
+				B074695B21C10C0E00B7A84D /* DataCollectionViewCell.xib in Resources */,
+				B074696921C13BE600B7A84D /* Main.storyboard in Resources */,
 				B07468E921BFB54B00B7A84D /* Assets.xcassets in Resources */,
-				B07468E721BFB54A00B7A84D /* Main.storyboard in Resources */,
+				B074695721C0FBB800B7A84D /* BarsCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,8 +454,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B07468E421BFB54A00B7A84D /* ViewController.swift in Sources */,
+				B074693C21BFC9BD00B7A84D /* ScrollableGraphView.swift in Sources */,
+				B074696021C11B6F00B7A84D /* TimerLabel.swift in Sources */,
+				B074693721BFC9BD00B7A84D /* GradientDrawingLayer.swift in Sources */,
+				B074693921BFC9BD00B7A84D /* ScrollableGraphViewDrawingLayer.swift in Sources */,
+				B074693A21BFC9BD00B7A84D /* LineDrawingLayer.swift in Sources */,
+				B074694521BFC9BD00B7A84D /* LinePlot.swift in Sources */,
+				B074693821BFC9BD00B7A84D /* DotDrawingLayer.swift in Sources */,
+				B074693D21BFC9BD00B7A84D /* ScrollableGraphViewDrawingDelegate.swift in Sources */,
+				B074693F21BFC9BD00B7A84D /* ReferenceLines.swift in Sources */,
+				B074693B21BFC9BD00B7A84D /* FillDrawingLayer.swift in Sources */,
+				B074694621BFC9BD00B7A84D /* DotPlot.swift in Sources */,
+				B074694B21BFCB6300B7A84D /* ResultsViewController.swift in Sources */,
+				B074695621C0FBB800B7A84D /* BarsCollectionViewCell.swift in Sources */,
+				B074693621BFC9BD00B7A84D /* BarDrawingLayer.swift in Sources */,
+				B074694221BFC9BD00B7A84D /* GraphPointAnimation.swift in Sources */,
+				B074695D21C118F800B7A84D /* CPRViewController.swift in Sources */,
+				B074695A21C10C0E00B7A84D /* DataCollectionViewCell.swift in Sources */,
+				B074695021BFCD2B00B7A84D /* GraphCollectionViewCell.swift in Sources */,
+				B074693E21BFC9BD00B7A84D /* ScrollableGraphViewDataSource.swift in Sources */,
+				B074694D21BFCB7B00B7A84D /* Utils.swift in Sources */,
+				B074694421BFC9BD00B7A84D /* Plot.swift in Sources */,
+				B074696A21C13BE600B7A84D /* ViewController.swift in Sources */,
+				B074694121BFC9BD00B7A84D /* BarPlot.swift in Sources */,
 				B07468E221BFB54A00B7A84D /* AppDelegate.swift in Sources */,
+				B074694321BFC9BD00B7A84D /* GraphPoint.swift in Sources */,
+				B074694021BFC9BD00B7A84D /* LabelPool.swift in Sources */,
+				B074693521BFC9BD00B7A84D /* ReferenceLineDrawingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,14 +510,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B07468E521BFB54A00B7A84D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B07468E621BFB54A00B7A84D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B07468EA21BFB54B00B7A84D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

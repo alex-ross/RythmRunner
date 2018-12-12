@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BarsCollectionViewCell" id="Hvx-rE-0BO" customClass="BarsCollectionViewCell" customModule="RythmRunner" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="246" height="162"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="246" height="162"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Depth" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJx-Yh-cJC">
+                        <rect key="frame" x="0.0" y="16" width="230" height="22"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Measure of distance pushed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfp-rG-2lR">
+                        <rect key="frame" x="0.0" y="46" width="230" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ideal depth: 2 inches" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pka-QP-raw">
+                        <rect key="frame" x="0.0" y="129" width="135" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WIK-1U-uBD" customClass="BarView" customModule="RythmRunner" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="95" width="246" height="2"/>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="zfp-rG-2lR" firstAttribute="leading" secondItem="Hvx-rE-0BO" secondAttribute="leading" id="ETx-mr-c6T"/>
+                <constraint firstItem="hJx-Yh-cJC" firstAttribute="leading" secondItem="Hvx-rE-0BO" secondAttribute="leading" id="IVD-bS-tmQ"/>
+                <constraint firstAttribute="bottom" secondItem="pka-QP-raw" secondAttribute="bottom" constant="16" id="IoM-dJ-pcV"/>
+                <constraint firstAttribute="trailing" secondItem="zfp-rG-2lR" secondAttribute="trailing" constant="16" id="Ls8-Nv-7gQ"/>
+                <constraint firstItem="WIK-1U-uBD" firstAttribute="leading" secondItem="Hvx-rE-0BO" secondAttribute="leading" id="aq8-RS-O3L"/>
+                <constraint firstItem="zfp-rG-2lR" firstAttribute="top" secondItem="hJx-Yh-cJC" secondAttribute="bottom" constant="8" id="axF-Do-S7W"/>
+                <constraint firstItem="pka-QP-raw" firstAttribute="top" secondItem="WIK-1U-uBD" secondAttribute="bottom" constant="32" id="hhx-fq-AF0"/>
+                <constraint firstItem="WIK-1U-uBD" firstAttribute="top" secondItem="zfp-rG-2lR" secondAttribute="bottom" constant="32" id="i5E-UP-2xf"/>
+                <constraint firstAttribute="trailing" secondItem="hJx-Yh-cJC" secondAttribute="trailing" constant="16" id="jkJ-pJ-gHx"/>
+                <constraint firstAttribute="trailing" secondItem="WIK-1U-uBD" secondAttribute="trailing" id="mDV-0R-BNW"/>
+                <constraint firstItem="hJx-Yh-cJC" firstAttribute="top" secondItem="Hvx-rE-0BO" secondAttribute="top" constant="16" id="xb6-zi-Gwe"/>
+                <constraint firstItem="pka-QP-raw" firstAttribute="leading" secondItem="Hvx-rE-0BO" secondAttribute="leading" id="xcJ-U2-Ac5"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="kbx-en-fh4"/>
+            <size key="customSize" width="246" height="162"/>
+            <point key="canvasLocation" x="184" y="230.28485757121442"/>
+        </collectionViewCell>
+    </objects>
+</document>
