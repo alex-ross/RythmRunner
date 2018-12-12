@@ -51,6 +51,7 @@
 		B074696421C12E2F00B7A84D /* Breath.png in Resources */ = {isa = PBXBuildFile; fileRef = B074696321C12E2E00B7A84D /* Breath.png */; };
 		B074696921C13BE600B7A84D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B074696721C13BE600B7A84D /* Main.storyboard */; };
 		B074696A21C13BE600B7A84D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074696821C13BE600B7A84D /* ViewController.swift */; };
+		B074696C21C1416200B7A84D /* Eye.png in Resources */ = {isa = PBXBuildFile; fileRef = B074696B21C1416100B7A84D /* Eye.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +146,7 @@
 		B074696321C12E2E00B7A84D /* Breath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Breath.png; sourceTree = "<group>"; };
 		B074696721C13BE600B7A84D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B074696821C13BE600B7A84D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B074696B21C1416100B7A84D /* Eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eye.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				B074696121C12C7700B7A84D /* Heart.png */,
+				B074696B21C1416100B7A84D /* Eye.png */,
 				B074696321C12E2E00B7A84D /* Breath.png */,
 				B074691D21BFC9BD00B7A84D /* GraphicView */,
 				B07468E021BFB54A00B7A84D /* RythmRunner */,
@@ -425,6 +428,7 @@
 				B074694921BFCA2E00B7A84D /* Storyboard.storyboard in Resources */,
 				B074695B21C10C0E00B7A84D /* DataCollectionViewCell.xib in Resources */,
 				B074696921C13BE600B7A84D /* Main.storyboard in Resources */,
+				B074696C21C1416200B7A84D /* Eye.png in Resources */,
 				B07468E921BFB54B00B7A84D /* Assets.xcassets in Resources */,
 				B074695721C0FBB800B7A84D /* BarsCollectionViewCell.xib in Resources */,
 			);

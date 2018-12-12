@@ -29,7 +29,6 @@ class CPRViewController: UIViewController {
         }
     }
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         reset()
@@ -37,7 +36,6 @@ class CPRViewController: UIViewController {
         status = .cpr
         
     }
-    
     
     func nextStatus() {
         switch status {
@@ -53,7 +51,6 @@ class CPRViewController: UIViewController {
             timerLabel.seconds = seconds
         }
     }
-    
 
 }
 
@@ -81,17 +78,26 @@ extension CPRViewController {
 //STATUS
 extension CPRViewController {
     enum Status {
-        case cpr, breath, swap
+        case check, clear, cpr, breath
         var item: (text: String, image: UIImage?, taps: Int){
             switch self {
-            case .cpr: return (text: "Chest Compressions", image: UIImage(named: "Heart"), taps: 30)
+            case .check: return (text: "Check if conscious or unconscious", image: UIImage(named: "Eye"), taps: 30)
+            case .clear: return (text: "Chest Compressions", image: UIImage(named: "Heart"), taps: 0)
+            case .cpr: return (text: "Chest Compressions", image: UIImage(named: "Heart"), taps: 0)
             case .breath: return (text: "Full Breaths", image: UIImage(named: "Breath"), taps: 2)
-            case .swap: return (text: "Swap CPR performer", image: UIImage(), taps: 1)
             }
         }
         var text: String { return item.text }
         var image: UIImage? { return item.image }
         var taps: Int? { return item.taps }
+        var next: Status{
+            switch self {
+                case .check: return .clear
+                case .clear: return .cpr
+                case .cpr: return .breath
+                case .breath: return .cpr
+            }
+        }
     }
 }
 
@@ -100,8 +106,11 @@ extension CPRViewController {
     // Make it appears very responsive to touch
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
-        if status == .cpr {statusIndicator? -= 1}
-        animate(isHighlighted: true)
+        if status == .cpr {
+            statusIndicator? -= 1
+            animate(isHighlighted: true)
+        }
+        
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
