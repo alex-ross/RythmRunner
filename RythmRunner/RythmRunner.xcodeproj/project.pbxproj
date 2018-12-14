@@ -52,6 +52,9 @@
 		B074696921C13BE600B7A84D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B074696721C13BE600B7A84D /* Main.storyboard */; };
 		B074696A21C13BE600B7A84D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074696821C13BE600B7A84D /* ViewController.swift */; };
 		B074696C21C1416200B7A84D /* Eye.png in Resources */ = {isa = PBXBuildFile; fileRef = B074696B21C1416100B7A84D /* Eye.png */; };
+		B0BC1C4C21C1521C00839B8B /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC1C4B21C1521C00839B8B /* TestViewController.swift */; };
+		B0BC1C4E21C1586F00839B8B /* BlowDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC1C4D21C1586F00839B8B /* BlowDetector.swift */; };
+		B0BC1C5021C15E7000839B8B /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC1C4F21C15E7000839B8B /* AnimatedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +150,9 @@
 		B074696721C13BE600B7A84D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B074696821C13BE600B7A84D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B074696B21C1416100B7A84D /* Eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eye.png; sourceTree = "<group>"; };
+		B0BC1C4B21C1521C00839B8B /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		B0BC1C4D21C1586F00839B8B /* BlowDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlowDetector.swift; sourceTree = "<group>"; };
+		B0BC1C4F21C15E7000839B8B /* AnimatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +200,7 @@
 		B07468E021BFB54A00B7A84D /* RythmRunner */ = {
 			isa = PBXGroup;
 			children = (
+				B0BC1C4F21C15E7000839B8B /* AnimatedButton.swift */,
 				B074695E21C11B4700B7A84D /* CPR */,
 				B074694721BFCA1900B7A84D /* Results */,
 				B07468E121BFB54A00B7A84D /* AppDelegate.swift */,
@@ -201,6 +208,7 @@
 				B074696721C13BE600B7A84D /* Main.storyboard */,
 				B074694821BFCA2E00B7A84D /* Storyboard.storyboard */,
 				B074696821C13BE600B7A84D /* ViewController.swift */,
+				B0BC1C4B21C1521C00839B8B /* TestViewController.swift */,
 				B07468EA21BFB54B00B7A84D /* LaunchScreen.storyboard */,
 				B07468ED21BFB54B00B7A84D /* Info.plist */,
 			);
@@ -315,6 +323,7 @@
 			children = (
 				B074695C21C118F800B7A84D /* CPRViewController.swift */,
 				B074695F21C11B6F00B7A84D /* TimerLabel.swift */,
+				B0BC1C4D21C1586F00839B8B /* BlowDetector.swift */,
 			);
 			path = CPR;
 			sourceTree = "<group>";
@@ -472,6 +481,7 @@
 				B074694B21BFCB6300B7A84D /* ResultsViewController.swift in Sources */,
 				B074695621C0FBB800B7A84D /* BarsCollectionViewCell.swift in Sources */,
 				B074693621BFC9BD00B7A84D /* BarDrawingLayer.swift in Sources */,
+				B0BC1C4C21C1521C00839B8B /* TestViewController.swift in Sources */,
 				B074694221BFC9BD00B7A84D /* GraphPointAnimation.swift in Sources */,
 				B074695D21C118F800B7A84D /* CPRViewController.swift in Sources */,
 				B074695A21C10C0E00B7A84D /* DataCollectionViewCell.swift in Sources */,
@@ -481,9 +491,11 @@
 				B074694421BFC9BD00B7A84D /* Plot.swift in Sources */,
 				B074696A21C13BE600B7A84D /* ViewController.swift in Sources */,
 				B074694121BFC9BD00B7A84D /* BarPlot.swift in Sources */,
+				B0BC1C4E21C1586F00839B8B /* BlowDetector.swift in Sources */,
 				B07468E221BFB54A00B7A84D /* AppDelegate.swift in Sources */,
 				B074694321BFC9BD00B7A84D /* GraphPoint.swift in Sources */,
 				B074694021BFC9BD00B7A84D /* LabelPool.swift in Sources */,
+				B0BC1C5021C15E7000839B8B /* AnimatedButton.swift in Sources */,
 				B074693521BFC9BD00B7A84D /* ReferenceLineDrawingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -654,6 +666,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8734Y6QF3F;
 				INFOPLIST_FILE = "RythmRunner WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -675,6 +688,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8734Y6QF3F;
 				INFOPLIST_FILE = "RythmRunner WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -697,6 +711,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8734Y6QF3F;
 				IBSC_MODULE = RythmRunner_WatchKit_Extension;
 				INFOPLIST_FILE = "RythmRunner WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = Phoenix.RythmRunner.watchkitapp;
@@ -715,6 +730,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8734Y6QF3F;
 				IBSC_MODULE = RythmRunner_WatchKit_Extension;
 				INFOPLIST_FILE = "RythmRunner WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = Phoenix.RythmRunner.watchkitapp;
@@ -732,6 +748,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8734Y6QF3F;
 				INFOPLIST_FILE = RythmRunner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -749,6 +766,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8734Y6QF3F;
 				INFOPLIST_FILE = RythmRunner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

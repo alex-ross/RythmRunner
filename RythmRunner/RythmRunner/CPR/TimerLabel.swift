@@ -10,7 +10,7 @@ import UIKit
 
 class TimerLabel: UILabel{
    
-    var seconds : Int? {
+    var seconds : Double? {
         didSet {
             guard let _ = seconds else { return }
             self.text = timeString(time: TimeInterval(seconds!))

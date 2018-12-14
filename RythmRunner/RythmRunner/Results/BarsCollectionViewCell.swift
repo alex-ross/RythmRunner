@@ -67,7 +67,7 @@ class BarView : UIView {
         path.close()
         
         let shapeLayer = CAShapeLayer()
-        shapeLayer.fillColor = #colorLiteral(red: 1, green: 0, blue: 0, alpha: 1).cgColor
+        shapeLayer.fillColor = UIColor(0xD30446).cgColor
         shapeLayer.strokeColor =  #colorLiteral(red: 0, green: 0, blue: 0, alpha: 0).cgColor
         shapeLayer.lineWidth = 4
         shapeLayer.path = path.cgPath

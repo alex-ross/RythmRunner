@@ -15,6 +15,7 @@ class ResultsViewController: UIViewController, UICollectionViewDelegate, UIColle
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         collectionView.dataSource = self
         collectionView.delegate = self
         
